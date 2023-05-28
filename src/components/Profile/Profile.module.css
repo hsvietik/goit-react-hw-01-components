@@ -1,0 +1,44 @@
+.profile {
+  width: 300px;
+  background-color: #e8edf2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.description {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  background-color: #ffffff;
+  width: 100px;
+  border-radius: 50%;
+}
+.username {
+  color: #15263d;
+}
+.usertext {
+  color: #8694a2;
+}
+.stats {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
+.statsItem {
+  padding: 10px;
+  background-color: #f3f6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dde4ed;
+}
+.label {
+  color: #8694a2;
+}
+.quantity {
+  font-size: 24px;
+  color: #15263d;
+}
