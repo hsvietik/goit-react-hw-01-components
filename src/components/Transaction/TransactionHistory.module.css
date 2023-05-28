@@ -1,0 +1,14 @@
+.transactionHistory {
+  width: 400px;
+  border-collapse: collapse;
+  margin: 0px auto 0px auto;
+}
+.tableHeader {
+  text-transform: uppercase;
+  text-align: center;
+}
+.transactionHistory th,
+.transactionHistory td {
+  padding: 5px;
+  border: 0.5px solid #8694a2;
+}
